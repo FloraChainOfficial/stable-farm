@@ -1,0 +1,54 @@
+import contracts from './contracts'
+import { FarmConfig, QuoteToken } from './types'
+
+const farms: FarmConfig[] = [
+
+  {
+    pid: 3,
+    risk: 0,
+    lpSymbol: 'GLMR-USDT LP',
+    lpAddresses: {
+      10500: '0xADE2E94cB232494C4EDf6f680955fCB002fCA591',
+    },
+    tokenSymbol: 'USDT',
+    tokenAddresses: {
+      10500: '0x1b724DA08841fc1Ee3a3FE906274Ef0978320111',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
+  },
+
+  {
+    pid: 0,
+    risk: 0,
+    lpSymbol: 'USDT-GLMR LP',
+    lpAddresses: {
+      10500: '0x7754aB4B81B1BFE28C009E80E35C7DD07A562bb9',
+    },
+    tokenSymbol: 'USDT',
+    tokenAddresses: {
+      10500: '0x1b724DA08841fc1Ee3a3FE906274Ef0978320111',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  
+  {
+    pid: 2,
+    risk: 0,
+    lpSymbol: 'USDT-USDT LP',
+    lpAddresses: {
+      10500: '0x0a092B396Fcfd4FD92C1F87D59Dbfa015f06886a',
+    },
+    tokenSymbol: 'USDT',
+    tokenAddresses: {
+      10500: '0x1b724DA08841fc1Ee3a3FE906274Ef0978320111',
+    },
+    quoteTokenSymbol: QuoteToken.USDT,
+    quoteTokenAdresses: contracts.usdt,
+  },
+  
+
+]
+
+export default farms

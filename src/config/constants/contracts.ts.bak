@@ -1,0 +1,26 @@
+export default {
+  cake: {
+    10500: '0x1b724DA08841fc1Ee3a3FE906274Ef0978320111',
+  },
+  liquidFarm: {
+    10500: '0x02E2Abb7d1aE58a62a5161C1a3AD61BE3dA2114b',
+  },
+  wbnb: {
+    10500: '0x1b724DA08841fc1Ee3a3FE906274Ef0978320111',
+  },
+  lottery: {
+    10500: '',
+  },
+  lotteryNFT: {
+    10500: '',
+  },
+  mulltiCall: {
+    10500: '0x8772aa4C291d85737D0C9E05E2fef81aABE110CC',
+  },
+  usdt: {
+    10500: '0x330455979dEFAe1d04b677aed52C84A4467F522B',
+  },
+  usdc: {
+	10500: '0x330455979dEFAe1d04b677aed52C84A4467F522B'
+  },
+}
